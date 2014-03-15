@@ -1,0 +1,17 @@
+package lista.array;
+
+public class Lista {
+	private Integer[] corpo;
+	private Integer inicio;
+	private Integer fim;
+	
+	public Lista(int corpo){
+		this.corpo = new Integer[corpo];
+		this.inicio = 0;
+		this.fim = 0;
+	}
+	
+	public boolean isCheia(){
+		
+	}
+}

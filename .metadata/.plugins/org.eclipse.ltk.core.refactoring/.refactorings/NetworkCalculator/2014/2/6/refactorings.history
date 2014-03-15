@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;frameTxt&apos; in &apos;view.TelaPrincipal.field()&apos; to &apos;panelTxt&apos;&#x0D;&#x0A;- Original project: &apos;NetworkCalculator&apos;&#x0D;&#x0A;- Original element: &apos;view.TelaPrincipal.field().frameTxt&apos;&#x0D;&#x0A;- Renamed element: &apos;frameTxt&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;frameTxt&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;view{TelaPrincipal.java[TelaPrincipal~field@frameTxt!451!481!458!465!QJFrame;!0!false" name="panelTxt" references="true" stamp="1391955913455" version="1.0"/>
+</session>

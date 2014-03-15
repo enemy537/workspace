@@ -1,0 +1,197 @@
+[
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1b5877470adcb83b82d13fbfd76b009d7a9f2e7f",
+    "jarFileModificationDate": "2014-01-26T11:53:53.372-03:00",
+    "location": "C:\\Program Files\\Java\\jdk1.7.0_51\\jre\\lib\\rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4c767f7289dd16427acc3063ffe603cf04536616",
+    "jarFileModificationDate": "2014-01-26T11:53:18.595-03:00",
+    "location": "C:\\Program Files\\Java\\jdk1.7.0_51\\jre\\lib\\ext\\zipfs.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d467db004ae22899af088086984b740bf979b169",
+    "jarFileModificationDate": "2014-01-26T11:53:44.681-03:00",
+    "location": "C:\\Program Files\\Java\\jdk1.7.0_51\\jre\\lib\\charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jfxrt",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "22a972048ef0613b974d1d99576ac82bf12ef73b",
+    "jarFileModificationDate": "2014-01-26T11:53:55.450-03:00",
+    "location": "C:\\Program Files\\Java\\jdk1.7.0_51\\jre\\lib\\jfxrt.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "97232c0d837b619a3d5612873718d20c38b2307a",
+    "jarFileModificationDate": "2014-01-26T11:53:18.970-03:00",
+    "location": "C:\\Program Files\\Java\\jdk1.7.0_51\\jre\\lib\\resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "18121f376b70a5b13ab36e9859aa7be525114849",
+    "jarFileModificationDate": "2014-01-26T11:53:18.032-03:00",
+    "location": "C:\\Program Files\\Java\\jdk1.7.0_51\\jre\\lib\\ext\\access-bridge-64.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1826204b0e05aef412b595321866f7d190e0498d",
+    "jarFileModificationDate": "2014-01-26T11:53:18.579-03:00",
+    "location": "C:\\Program Files\\Java\\jdk1.7.0_51\\jre\\lib\\ext\\sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "be4124ecceb37230419f0f31ea6e7d50babb4973",
+    "jarFileModificationDate": "2014-01-26T11:53:18.751-03:00",
+    "location": "C:\\Program Files\\Java\\jdk1.7.0_51\\jre\\lib\\jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a3d1a9689f1c8e36ab64fb669df92076771c42f2",
+    "jarFileModificationDate": "2014-01-26T11:53:18.579-03:00",
+    "location": "C:\\Program Files\\Java\\jdk1.7.0_51\\jre\\lib\\ext\\sunmscapi.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "edb1f5eff13f66d904b68a10f5e00a2286b4a4d0",
+    "jarFileModificationDate": "2014-01-26T11:53:46.419-03:00",
+    "location": "C:\\Program Files\\Java\\jdk1.7.0_51\\jre\\lib\\jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4a87e4caa30fe9f43e388d12f0766fb532e0c912",
+    "jarFileModificationDate": "2014-01-26T11:53:18.782-03:00",
+    "location": "C:\\Program Files\\Java\\jdk1.7.0_51\\jre\\lib\\jfr.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "59685bead3fa4101bb13280f1a04ac98b7888e01",
+    "jarFileModificationDate": "2014-01-26T11:53:18.048-03:00",
+    "location": "C:\\Program Files\\Java\\jdk1.7.0_51\\jre\\lib\\ext\\jaccess.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "46f537010a194c3f1b4cf5fa708758efa2a93b72",
+    "jarFileModificationDate": "2014-01-26T11:53:18.032-03:00",
+    "location": "C:\\Program Files\\Java\\jdk1.7.0_51\\jre\\lib\\ext\\dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a3208d0b79b8c2a9c6f78da804a5c544ff0b6d96",
+    "jarFileModificationDate": "2014-01-26T11:53:54.200-03:00",
+    "location": "C:\\Program Files\\Java\\jdk1.7.0_51\\jre\\lib\\ext\\localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "95dc9053062d68cde4e8c38494cc63aefd7b0a42",
+    "jarFileModificationDate": "2014-01-26T11:53:18.579-03:00",
+    "location": "C:\\Program Files\\Java\\jdk1.7.0_51\\jre\\lib\\ext\\sunec.jar",
+    "javaRuntime": true
+  }
+]

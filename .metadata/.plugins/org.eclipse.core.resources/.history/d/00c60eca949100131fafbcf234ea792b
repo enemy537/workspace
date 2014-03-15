@@ -1,0 +1,57 @@
+package view;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+import java.awt.Font;
+import java.awt.GridLayout;
+
+import javax.swing.JTextField;
+
+public class TelaPrincipal extends JPanel {
+	private JTextField txtHosts;
+	private JTextField txtMascDec;
+	private JTextField txtMascBin;
+	public TelaPrincipal() {
+		JFrame frameTxt = new JFrame();
+		frameTxt.getContentPane().setLayout(null);
+		
+		JLabel lblNmeroDeHosts = new JLabel("N\u00FAmero de Hosts");
+		lblNmeroDeHosts.setFont(new Font("Tahoma", Font.PLAIN, 12));
+		lblNmeroDeHosts.setBounds(10, 11, 105, 14);
+		frameTxt.getContentPane().add(lblNmeroDeHosts);
+		
+		JLabel lblMscaraDecimal = new JLabel("M\u00E1scara Decimal");
+		lblMscaraDecimal.setFont(new Font("Tahoma", Font.PLAIN, 12));
+		lblMscaraDecimal.setBounds(10, 47, 98, 14);
+		frameTxt.getContentPane().add(lblMscaraDecimal);
+		
+		JLabel lblNewLabel = new JLabel("M\u00E1scara Bin\u00E1ria");
+		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 12));
+		lblNewLabel.setBounds(10, 88, 92, 14);
+		frameTxt.getContentPane().add(lblNewLabel);
+		
+		txtHosts = new JTextField();
+		txtHosts.setBounds(136, 9, 237, 20);
+		frameTxt.getContentPane().add(txtHosts);
+		txtHosts.setColumns(10);
+		
+		txtMascDec = new JTextField();
+		txtMascDec.setText("");
+		txtMascDec.setBounds(136, 45, 237, 20);
+		frameTxt.getContentPane().add(txtMascDec);
+		txtMascDec.setColumns(10);
+		
+		txtMascBin = new JTextField();
+		txtMascBin.setBounds(136, 86, 237, 20);
+		frameTxt.getContentPane().add(txtMascBin);
+		txtMascBin.setColumns(10);
+	}
+	public JFrame teclado(){
+		JFrame teclado = new JFrame();
+		teclado.setLayout(new GridLayout(4,4));
+		
+		return teclado;
+	}
+}

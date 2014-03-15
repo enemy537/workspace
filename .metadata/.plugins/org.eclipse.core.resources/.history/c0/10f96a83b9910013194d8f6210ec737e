@@ -1,0 +1,29 @@
+package view;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+import java.awt.BorderLayout;
+import java.awt.Button;
+import java.awt.Dimension;
+import java.awt.Font;
+import java.awt.GridLayout;
+
+import javax.swing.JTextField;
+
+public class TelaPrincipal extends JFrame {
+
+	public TelaPrincipal() {
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setMinimumSize(new Dimension(450,304));
+		getContentPane().setLayout(new GridLayout(2,1));
+		
+		getContentPane().add(new Field());
+		getContentPane().add(new Teclado());
+		
+		setVisible(true);
+	}
+	
+
+}

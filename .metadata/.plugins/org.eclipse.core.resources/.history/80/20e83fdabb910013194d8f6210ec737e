@@ -1,0 +1,44 @@
+package view;
+
+import java.awt.Button;
+import java.awt.GridLayout;
+
+import javax.swing.JPanel;
+
+public class Teclado extends JPanel {
+	private Button num1;
+	private Button num2;
+	private Button num3;
+	private Button num4;
+	private Button num5;
+	private Button num6;
+	private Button num7;
+	private Button num8;
+	private Button num9;
+	private Button num0;
+
+
+	public Teclado(){
+		setLayout(new GridLayout(4,4));
+		num1 = new Button("1");
+		add(num1);
+		num2 = new Button("2");
+		add(num2);
+		num3 = new Button("3");
+		add(num3);
+		num4 = new Button("4");
+		add(num4);
+		num5 = new Button("5");
+		add(num5);
+		num6 = new Button("6");
+		add(num6);
+		num7 = new Button("7");
+		add(num7);
+		num8 = new Button("8");
+		add(num8);
+		num9 = new Button("9");
+		add(num9);
+		num0 = new Button("0");
+		add(num0);
+	}
+}

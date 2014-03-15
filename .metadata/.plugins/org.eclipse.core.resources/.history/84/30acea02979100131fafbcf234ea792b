@@ -1,0 +1,89 @@
+package view;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+import java.awt.BorderLayout;
+import java.awt.Button;
+import java.awt.Font;
+import java.awt.GridLayout;
+
+import javax.swing.JTextField;
+
+public class TelaPrincipal extends JFrame {
+	private JTextField txtHosts;
+	private JTextField txtMascDec;
+	private JTextField txtMascBin;
+	public TelaPrincipal() {
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		
+		getContentPane().add(field());
+		getContentPane().add(teclado());
+		
+		setVisible(true);
+	}
+	public JPanel field(){
+		JPanel panelTxt = new JPanel();
+		panelTxt.setLayout(null);
+		
+		JLabel lblNmeroDeHosts = new JLabel("N\u00FAmero de Hosts");
+		lblNmeroDeHosts.setFont(new Font("Tahoma", Font.PLAIN, 12));
+		lblNmeroDeHosts.setBounds(10, 11, 105, 14);
+		panelTxt.add(lblNmeroDeHosts);
+		
+		JLabel lblMscaraDecimal = new JLabel("M\u00E1scara Decimal");
+		lblMscaraDecimal.setFont(new Font("Tahoma", Font.PLAIN, 12));
+		lblMscaraDecimal.setBounds(10, 47, 98, 14);
+		panelTxt.add(lblMscaraDecimal);
+		
+		JLabel lblNewLabel = new JLabel("M\u00E1scara Bin\u00E1ria");
+		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 12));
+		lblNewLabel.setBounds(10, 88, 92, 14);
+		panelTxt.add(lblNewLabel);
+		
+		txtHosts = new JTextField();
+		txtHosts.setBounds(136, 9, 237, 20);
+		panelTxt.add(txtHosts);
+		txtHosts.setColumns(10);
+		
+		txtMascDec = new JTextField();
+		txtMascDec.setText("");
+		txtMascDec.setBounds(136, 45, 237, 20);
+		panelTxt.add(txtMascDec);
+		txtMascDec.setColumns(10);
+		
+		txtMascBin = new JTextField();
+		txtMascBin.setBounds(136, 86, 237, 20);
+		panelTxt.add(txtMascBin);
+		txtMascBin.setColumns(10);
+		
+		return panelTxt;
+	}
+	public JPanel teclado(){
+		JPanel teclado = new JPanel();
+		teclado.setLayout(new GridLayout(4,4));
+		Button num1 = new Button("1");
+		teclado.add(num1);
+		Button num2 = new Button("2");
+		teclado.add(num2);
+		Button num3 = new Button("3");
+		teclado.add(num3);
+		Button num4 = new Button("4");
+		teclado.add(num4);
+		Button num5 = new Button("5");
+		teclado.add(num5);
+		Button num6 = new Button("6");
+		teclado.add(num6);
+		Button num7 = new Button("7");
+		teclado.add(num7);
+		Button num8 = new Button("8");
+		teclado.add(num8);
+		Button num9 = new Button("9");
+		teclado.add(num9);
+		Button num0 = new Button("0");
+		teclado.add(num0);
+		
+		return teclado;
+	}
+}

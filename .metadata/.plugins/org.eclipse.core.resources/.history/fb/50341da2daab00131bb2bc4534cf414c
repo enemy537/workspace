@@ -1,0 +1,13 @@
+package lista.array;
+
+public class Instancia_Lista {
+	public static void main(String[] args) {
+		Lista lista = new Lista(5);
+		
+		for(int i = 0; i < 6; i++){
+			lista.inserir(i);
+		}
+		
+		System.out.println(lista);
+	}
+}

@@ -1,0 +1,66 @@
+package view;
+
+import java.awt.Font;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class Field extends JPanel{
+	private JTextField txtHosts;
+	private JTextField txtMascDec;
+	private JTextField txtMascBin;
+	public Field(){
+		setLayout(null);
+		
+		JLabel lblNmeroDeHosts = new JLabel("N\u00FAmero de Hosts");
+		lblNmeroDeHosts.setFont(new Font("Tahoma", Font.PLAIN, 12));
+		lblNmeroDeHosts.setBounds(10, 11, 105, 14);
+		add(lblNmeroDeHosts);
+		
+		JLabel lblMscaraDecimal = new JLabel("M\u00E1scara Decimal");
+		lblMscaraDecimal.setFont(new Font("Tahoma", Font.PLAIN, 12));
+		lblMscaraDecimal.setBounds(10, 47, 98, 14);
+		add(lblMscaraDecimal);
+		
+		JLabel lblNewLabel = new JLabel("M\u00E1scara Bin\u00E1ria");
+		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 12));
+		lblNewLabel.setBounds(10, 88, 92, 14);
+		add(lblNewLabel);
+		
+		txtHosts = new JTextField();
+		txtHosts.setBounds(136, 9, 237, 20);
+		add(txtHosts);
+		txtHosts.setColumns(10);
+		
+		txtMascDec = new JTextField();
+		txtMascDec.setText("");
+		txtMascDec.setBounds(136, 45, 237, 20);
+		add(txtMascDec);
+		txtMascDec.setColumns(10);
+		txtMascDec.setEditable(false);
+		
+		txtMascBin = new JTextField();
+		txtMascBin.setBounds(136, 86, 237, 20);
+		add(txtMascBin);
+		txtMascBin.setColumns(10);
+		txtMascBin.setEditable(false);
+	}
+	public String getTxtHosts() {
+		return txtHosts.getText();
+	}
+	public void setTxtHosts(String txtHosts) {
+		this.txtHosts.setText(txtHosts);
+	}
+	public String getTxtMascDec() {
+		return txtMascDec.getText();
+	}
+	public void setTxtMascDec(String txtMascDec) {
+		this.txtMascDec.setText(txtMascDec);
+	}
+	public String getTxtMascBin() {
+		return txtMascBin.toString();
+	}
+	public void setTxtMascBin(String txtMascBin) {
+		this.txtMascBin.setText(txtMascBin);
+	}
+}
