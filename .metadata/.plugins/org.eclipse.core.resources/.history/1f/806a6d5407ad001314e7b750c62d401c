@@ -1,0 +1,41 @@
+package lista.encadeada;
+
+import javax.swing.JOptionPane;
+
+public class ListaEncadeada {
+	private No inicio;
+	private No fim;
+	
+	public ListaEncadeada(){
+		inicio = null;
+		fim = null;
+	}
+	public boolean isVazia(){
+		if(inicio == null){
+			return true;
+		}
+		return false;
+	}
+	public void inserir(No valor){
+		if(!isVazia()){
+			No aux = inicio;
+			while(aux.getProximo() != null){
+				aux = aux.getProximo();
+			}
+			aux.setProximo(valor);
+		}
+		inicio = valor;
+	}
+	public void remover(){
+		if(!isVazia()){
+			No aux = inicio;
+			while(aux.getProximo() != null){
+				aux = aux.getProximo();
+			}
+			
+		}
+		else{
+			JOptionPane.showMessageDialog(null, "lista vazia","alerta",JOptionPane.ERROR_MESSAGE);
+		}
+	}
+}

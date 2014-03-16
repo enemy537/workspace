@@ -1,0 +1,9 @@
+package lista.encadeada;
+
+public class Instancia_listaEncadeada {
+	public static void main(String[] args) {
+		ListaEncadeada lista = new ListaEncadeada();
+		
+		lista.inserir(new No("primeiro"));
+	}
+}

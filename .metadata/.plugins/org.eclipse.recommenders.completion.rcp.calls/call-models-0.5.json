@@ -19,5 +19,10 @@
     "location": "E:\\arq\\jfxrt.jar",
     "status": "UNRESOLVED",
     "error": "No call model found for \u0027E:\\arq\\jfxrt.jar\u0027. Neither fingerprint \u00274e2723894f0161439d2ef7274f9f87222971990e\u0027 nor symbolic name \u0027jfxrt\u0027 are known."
+  },
+  "C:\\Users\\Arionaldonunessilva\\workspace\\Estruturas_de_Dados\\src": {
+    "location": "C:\\Users\\Arionaldonunessilva\\workspace\\Estruturas_de_Dados\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\Arionaldonunessilva\\workspace\\Estruturas_de_Dados\\src\u0027. Skipped."
   }
 }

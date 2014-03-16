@@ -19,4 +19,13 @@
 <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
 <fullyQualifiedTypeName name="javafx.scene.layout.BorderPane"/>
 <fullyQualifiedTypeName name="javafx.scene.Scene"/>
+<fullyQualifiedTypeName name="lista.array.Lista"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.IncompatibleClassChangeError"/>
+<fullyQualifiedTypeName name="pilha.array.Pilha"/>
+<fullyQualifiedTypeName name="lista.encadeada.ListaEncadeada"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="lista.encadeada.No"/>
+<fullyQualifiedTypeName name="pilha.encadeada.PilhaEncadeada"/>
 </qualifiedTypeNameHistroy>

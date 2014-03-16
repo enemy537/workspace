@@ -1,0 +1,49 @@
+package pilha.encadeada;
+import javax.swing.JOptionPane;
+
+import lista.encadeada.No;
+public class PilhaEncadeada {
+	private No topo;
+	private int tamanho;
+	
+	public PilhaEncadeada(){
+		topo = null;
+		tamanho = 0;
+	}
+	public boolean isVazia(){
+		if(tamanho == 0){
+			return true;
+		}
+		return false;
+	}
+	public void inserir(No valor){
+		if(!isVazia()){
+			valor.setProximo(topo);
+			topo = valor;
+		}
+		else{
+			topo = valor;
+		}
+	}
+	public void remover(){
+		if(!isVazia()){
+			topo = topo.getProximo();
+		}
+		else{
+			JOptionPane.showMessageDialog(null, "pilha vazia","alerta!",JOptionPane.ERROR_MESSAGE);
+		}
+	}
+	@Override
+	public String toString() {
+		String auxString = new String();
+		No auxNo = topo;
+		do{
+			auxString += auxNo.getValor();
+		}while(auxNo.getProximo() == null);
+		
+		
+		
+		return "PilhaEncadeada [" + auxString +"]";
+	}
+	
+}

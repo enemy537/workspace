@@ -1,0 +1,34 @@
+package pilha.array;
+
+public class Pilha {
+	private Integer[] corpo;
+	private Integer topo;
+	private int tamanho;
+	private int numElem;
+	
+	public Pilha(int corpo){
+		this.corpo = new Integer[corpo];
+		this.tamanho = corpo;
+		this.topo = 0;
+		this.numElem = 0;
+	}
+	
+	public boolean isCheia(){
+		if(numElem == tamanho){
+			return true;
+		}
+		return false;
+	}
+	public boolean isVazia(){
+		if(numElem == 0){
+			return true;
+		}
+		return false;
+	}
+	public void inserir(int valor){
+		if(!isCheia()){
+			corpo[topo] = valor;
+			topo++;
+		}
+	}
+}
